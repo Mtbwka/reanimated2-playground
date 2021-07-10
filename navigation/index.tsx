@@ -23,6 +23,7 @@ import MagicCircleScreen from '../screens/MagicCircle';
 import ScrollInterpolationScreen from '../screens/Interpolation';
 import ColorInterpolationScreen from '../screens/Theme';
 import PinchGestureScreen from '../screens/PinchGesture';
+import DoubleTapScreen from '../screens/DoubleTap';
 
 export default function Navigation({
   colorScheme,
@@ -57,6 +58,7 @@ function RootNavigator() {
         component={ColorInterpolationScreen}
       />
       <Stack.Screen name='PinchGesture' component={PinchGestureScreen} />
+      <Stack.Screen name='DoubleTap' component={DoubleTapScreen} />
     </Stack.Navigator>
   );
 }

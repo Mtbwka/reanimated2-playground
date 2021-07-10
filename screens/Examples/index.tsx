@@ -22,6 +22,10 @@ const examples = [
     screen: 'PinchGesture',
     title: '🤏 Pinch Gesture',
   },
+  {
+    screen: 'DoubleTap',
+    title: '❤️ Double Tap',
+  },
 ] as const;
 
 const styles = StyleSheet.create({
