@@ -26,6 +26,10 @@ const examples = [
     screen: 'DoubleTap',
     title: '❤️ Double Tap',
   },
+  {
+    screen: 'CustomScrollView',
+    title: '📜 Custom Scroll View',
+  },
 ] as const;
 
 const styles = StyleSheet.create({

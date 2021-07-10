@@ -24,6 +24,7 @@ import ScrollInterpolationScreen from '../screens/Interpolation';
 import ColorInterpolationScreen from '../screens/Theme';
 import PinchGestureScreen from '../screens/PinchGesture';
 import DoubleTapScreen from '../screens/DoubleTap';
+import CustomScrollViewScreen from '../screens/CustomScrollView';
 
 export default function Navigation({
   colorScheme,
@@ -59,6 +60,10 @@ function RootNavigator() {
       />
       <Stack.Screen name='PinchGesture' component={PinchGestureScreen} />
       <Stack.Screen name='DoubleTap' component={DoubleTapScreen} />
+      <Stack.Screen
+        name='CustomScrollView'
+        component={CustomScrollViewScreen}
+      />
     </Stack.Navigator>
   );
 }
