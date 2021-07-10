@@ -34,6 +34,10 @@ const examples = [
     screen: 'ColorPicker',
     title: '🎨 Color Picker',
   },
+  {
+    screen: 'CircularProgressBar',
+    title: '☣️ Circular Progress Bar',
+  },
 ] as const;
 
 const styles = StyleSheet.create({

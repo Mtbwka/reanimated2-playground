@@ -7,6 +7,7 @@ type Routes = {
   DoubleTap: undefined;
   CustomScrollView: undefined;
   ColorPicker: undefined;
+  CircularProgressBar: undefined;
 };
 
 export default Routes;

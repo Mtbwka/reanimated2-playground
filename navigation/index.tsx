@@ -26,6 +26,7 @@ import PinchGestureScreen from '../screens/PinchGesture';
 import DoubleTapScreen from '../screens/DoubleTap';
 import CustomScrollViewScreen from '../screens/CustomScrollView';
 import ColorPickerScreen from '../screens/ColorPicker';
+import CircularProgressBarScreen from '../screens/CircularProgressBar';
 
 export default function Navigation({
   colorScheme,
@@ -69,6 +70,10 @@ function RootNavigator() {
         name='ColorPicker'
         component={ColorPickerScreen}
         options={{ gestureDirection: 'vertical' }}
+      />
+      <Stack.Screen
+        name='CircularProgressBar'
+        component={CircularProgressBarScreen}
       />
     </Stack.Navigator>
   );
