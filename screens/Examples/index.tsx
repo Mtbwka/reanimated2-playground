@@ -18,6 +18,10 @@ const examples = [
     screen: 'ColorInterpolation',
     title: '🎨 Color Interpolation',
   },
+  {
+    screen: 'PinchGesture',
+    title: '🤏 Pinch Gesture',
+  },
 ] as const;
 
 const styles = StyleSheet.create({

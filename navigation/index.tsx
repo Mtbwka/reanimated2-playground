@@ -22,6 +22,7 @@ import ExamplesScreen from '../screens/Examples';
 import MagicCircleScreen from '../screens/MagicCircle';
 import ScrollInterpolationScreen from '../screens/Interpolation';
 import ColorInterpolationScreen from '../screens/Theme';
+import PinchGestureScreen from '../screens/PinchGesture';
 
 export default function Navigation({
   colorScheme,
@@ -55,6 +56,7 @@ function RootNavigator() {
         name='ColorInterpolation'
         component={ColorInterpolationScreen}
       />
+      <Stack.Screen name='PinchGesture' component={PinchGestureScreen} />
     </Stack.Navigator>
   );
 }

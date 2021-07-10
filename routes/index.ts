@@ -3,6 +3,7 @@ type Routes = {
   MagicCircle: undefined;
   ScrollInterpolation: undefined;
   ColorInterpolation: undefined;
+  PinchGesture: undefined;
 };
 
 export default Routes;
