@@ -16,7 +16,7 @@ const examples = [
   },
   {
     screen: 'ColorInterpolation',
-    title: '🎨 Color Interpolation',
+    title: '↔️ Color Interpolation',
   },
   {
     screen: 'PinchGesture',
@@ -29,6 +29,10 @@ const examples = [
   {
     screen: 'CustomScrollView',
     title: '📜 Custom Scroll View',
+  },
+  {
+    screen: 'ColorPicker',
+    title: '🎨 Color Picker',
   },
 ] as const;
 

@@ -6,6 +6,7 @@ type Routes = {
   PinchGesture: undefined;
   DoubleTap: undefined;
   CustomScrollView: undefined;
+  ColorPicker: undefined;
 };
 
 export default Routes;

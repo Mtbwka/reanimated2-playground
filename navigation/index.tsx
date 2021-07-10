@@ -25,6 +25,7 @@ import ColorInterpolationScreen from '../screens/Theme';
 import PinchGestureScreen from '../screens/PinchGesture';
 import DoubleTapScreen from '../screens/DoubleTap';
 import CustomScrollViewScreen from '../screens/CustomScrollView';
+import ColorPickerScreen from '../screens/ColorPicker';
 
 export default function Navigation({
   colorScheme,
@@ -63,6 +64,11 @@ function RootNavigator() {
       <Stack.Screen
         name='CustomScrollView'
         component={CustomScrollViewScreen}
+      />
+      <Stack.Screen
+        name='ColorPicker'
+        component={ColorPickerScreen}
+        options={{ gestureDirection: 'vertical' }}
       />
     </Stack.Navigator>
   );
