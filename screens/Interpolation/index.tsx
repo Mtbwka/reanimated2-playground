@@ -1,22 +1,20 @@
-/** @format */
-
-import * as React from 'react'
-import { StyleSheet } from 'react-native'
+import * as React from 'react';
+import { StyleSheet } from 'react-native';
 import Animated, {
   useAnimatedScrollHandler,
   useSharedValue,
-} from 'react-native-reanimated'
+} from 'react-native-reanimated';
 
-import Page from './components/Page'
+import Page from './components/Page';
 
-const WORDS = ['Підеш', 'кушать', 'на', 'фудкорт?']
+const WORDS = ['Підеш', 'кушать', 'на', 'фудкорт?'];
 
 export default () => {
-  const translateX = useSharedValue(0)
+  const translateX = useSharedValue(0);
 
   const scrollHandler = useAnimatedScrollHandler(event => {
-    translateX.value = event.contentOffset.x
-  })
+    translateX.value = event.contentOffset.x;
+  });
 
   return (
     <Animated.ScrollView
@@ -34,15 +32,15 @@ export default () => {
             index={index}
             translateX={translateX}
           />
-        )
+        );
       })}
     </Animated.ScrollView>
-  )
-}
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
   },
-})
+});
