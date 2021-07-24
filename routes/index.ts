@@ -10,6 +10,7 @@ type Routes = {
   CircularProgressBar: undefined;
   DvdScreenSaver: undefined;
   ExpandView: undefined;
+  LoadingBubble: undefined;
 };
 
 export default Routes;

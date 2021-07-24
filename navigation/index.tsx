@@ -29,6 +29,7 @@ import ColorPickerScreen from '../screens/ColorPicker';
 import CircularProgressBarScreen from '../screens/CircularProgressBar';
 import DvdScreenSaverScreen from '../screens/DvdScreenSaver';
 import ExpandView from '../screens/ExpandView';
+import LoadingBubble from '../screens/LoadingBubble';
 
 export default function Navigation({
   colorScheme,
@@ -79,6 +80,7 @@ function RootNavigator() {
       />
       <Stack.Screen name='DvdScreenSaver' component={DvdScreenSaverScreen} />
       <Stack.Screen name='ExpandView' component={ExpandView} />
+      <Stack.Screen name='LoadingBubble' component={LoadingBubble} />
     </Stack.Navigator>
   );
 }

@@ -46,6 +46,10 @@ const examples = [
     screen: 'ExpandView',
     title: '↕️ Expand View',
   },
+  {
+    screen: 'LoadingBubble',
+    title: '🧼 Loading Bubble',
+  },
 ] as const;
 
 const styles = StyleSheet.create({
