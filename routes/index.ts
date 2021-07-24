@@ -8,7 +8,8 @@ type Routes = {
   CustomScrollView: undefined;
   ColorPicker: undefined;
   CircularProgressBar: undefined;
-  DvdScreenSaverScreen: undefined;
+  DvdScreenSaver: undefined;
+  ExpandView: undefined;
 };
 
 export default Routes;

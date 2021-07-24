@@ -42,6 +42,10 @@ const examples = [
     screen: 'DvdScreenSaver',
     title: '📀 DVD Screen Saver',
   },
+  {
+    screen: 'ExpandView',
+    title: '↕️ Expand View',
+  },
 ] as const;
 
 const styles = StyleSheet.create({
