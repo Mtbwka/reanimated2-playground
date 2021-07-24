@@ -38,6 +38,10 @@ const examples = [
     screen: 'CircularProgressBar',
     title: '☣️ Circular Progress Bar',
   },
+  {
+    screen: 'DvdScreenSaver',
+    title: '📀 DVD Screen Saver',
+  },
 ] as const;
 
 const styles = StyleSheet.create({

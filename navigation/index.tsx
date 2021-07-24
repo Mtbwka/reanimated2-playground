@@ -27,6 +27,7 @@ import DoubleTapScreen from '../screens/DoubleTap';
 import CustomScrollViewScreen from '../screens/CustomScrollView';
 import ColorPickerScreen from '../screens/ColorPicker';
 import CircularProgressBarScreen from '../screens/CircularProgressBar';
+import DvdScreenSaverScreen from '../screens/DvdScreenSaver';
 
 export default function Navigation({
   colorScheme,
@@ -75,6 +76,7 @@ function RootNavigator() {
         name='CircularProgressBar'
         component={CircularProgressBarScreen}
       />
+      <Stack.Screen name='DvdScreenSaver' component={DvdScreenSaverScreen} />
     </Stack.Navigator>
   );
 }
